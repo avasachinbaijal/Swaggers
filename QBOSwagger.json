@@ -1486,7 +1486,7 @@
         }
       }
     },
-    "/v3/company/{companyid}/customer/63": {
+    "/v3/company/{companyid}/customer/{customerid}": {
       "get": {
         "tags": [
           "Customer"
@@ -1525,6 +1525,14 @@
           },
           {
             "name": "companyid",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          },
+          {
+            "name": "customerid",
             "in": "path",
             "schema": {
               "type": "string"
