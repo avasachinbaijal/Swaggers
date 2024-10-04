@@ -1500,30 +1500,6 @@
         ],
         "parameters": [
           {
-            "name": "User-Agent",
-            "in": "header",
-            "schema": {
-              "type": "string"
-            },
-            "example": "{{UserAgent}}"
-          },
-          {
-            "name": "Accept",
-            "in": "header",
-            "schema": {
-              "type": "string"
-            },
-            "example": "application/json"
-          },
-          {
-            "name": "minorversion",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            },
-            "example": "{{minorversion}}"
-          },
-          {
             "name": "companyid",
             "in": "path",
             "schema": {
